@@ -113,6 +113,7 @@ public:
     int unmountAsec(const char *id, bool force);
     int renameAsec(const char *id1, const char *id2);
     int getAsecMountPath(const char *id, char *buffer, int maxlen);
+    int getAsecFilesystemPath(const char *id, char *buffer, int maxlen);
 
     /* Loopback images */
     int listMountedObbs(SocketClient* cli);

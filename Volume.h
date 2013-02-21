@@ -53,6 +53,7 @@ protected:
     VolumeManager *mVm;
     bool mDebug;
     int mPartIdx;
+    bool mRetryMount;
 
     /*
      * The major/minor tuple of the currently mounted filesystem.
